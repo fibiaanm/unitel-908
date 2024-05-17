@@ -869,6 +869,14 @@ video {
     width: 80%;
   }
 
+  .md\:w-1\/7 {
+    width: 14.2857143%;
+  }
+
+  .md\:w-6\/7 {
+    width: 85.7142857%;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
   }
