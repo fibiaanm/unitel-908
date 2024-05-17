@@ -9,27 +9,26 @@
 </head>
 
 <body class="select-none">
-    <header id="header" class="h-screen w-screen bg-primary flex text-white justify-center items-center text-3xl">
+    <header id="header" class="min-h-screen w-screen bg-primary flex text-white justify-center items-center text-3xl">
         <div class="w-full text-center bg-gray-700/50 backdrop-blur-lg px-10 py-20 flex justify-center">
-            <span class="max-w-5xl">
+            <h1 class="max-w-5xl">
                 Propuesta de notificaciones certificadas, a través de tecnologías emergentes,
                 en el marco de un modelo de Data Trust; para generar valor en los stakeholders de la Comisión de
                 Regulación de Comunicaciones
-            </span>
+            </h1>
         </div>
     </header>
-    <section class="h-screen w-screen bg-white text-black justify-center flex flex-wrap">
+    <section class="min-h-screen w-screen bg-white text-black justify-center flex flex-wrap" id="tabla-contenido">
         <div class="w-full lg:w-2/5 lg:text-6xl text-4xl text-midnight-blue flex flex-wrap content-center items-center text-center lg:text-end lg:pr-2">
             <span class="w-full">TABLA</span>
             <span class="w-full">DE</span>
             <span class="w-full">CONTENIDO</span>
         </div>
         <div id="content_items" class="w-full lg:w-3/5 flex items-center text-center lg:pl-10 flex-col justify-center">
-            <span>Presentación</span>
-            <span>Introducción</span>
-            <span>Objetivos</span>
-            <span>Metodología</span>
-            <span>Producción Científica</span>
+            <span onclick="scrollIntoElement('presentacion')">Presentación e Introducción</span>
+            <span onclick="scrollIntoElement('objetivos')">Objetivos</span>
+            <span onclick="scrollIntoElement('metodologia')">Metodología</span>
+            <span onclick="scrollIntoElement('produccion')">Producción Científica</span>
             <span>Signo Distintivo e Innovación</span>
             <span>Apropiación Social del Conocimiento</span>
             <span>Bibliografía</span>
@@ -37,45 +36,203 @@
     </section>
     <section class="flex w-screen min-h-screen justify-center items-center px-10 pt-5" id="presentacion">
         <div class="flex max-w-5xl flex-wrap">
-            <div class="titles">
-                Presentación
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
+            <h3 class="titles">
+                <span class="return-index">#</span> &nbsp; Presentación e Introducción
+            </h3>
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
                     Esta cartilla se elaboró con el fin de divulgar los resultados principales del proyecto de investigación “Propuesta de notificaciones certificadas, a través de tecnologías emergentes, en el marco de un modelo de Data Trust; para generar valor en los stakeholders de la Comisión de Regulación de Comunicaciones”, financiado por Minciencias.
-                </div>
+                </p>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
                     Se implementó una solución tecnológica integral que permite reportar información hacia y desde la Comisión de Regulación de Comunicaciones (CRC) bajo la estructura de la tecnología Blockchain. Esta tecnología permitió transformar los procesos de la CRC, proporcionando registros transparentes y autorizados, generando confianza digital, eficiencia y eficacia en los procesos organizacionales.
-                </div>
+                </p>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
                     El concepto de Data Trust (o en una traducción literal al castellano de fideicomiso de datos) se relaciona con el enfoque de cuidar y tomar decisiones sobre los datos (digitales) de forma similar al resguardo que se ha venido dando a otros activos en el pasado. En este sentido, la esencia radica en administrar de forma transparente, imparcial, prudente y, con gran relevancia, leal de los datos que se resguardan.
-                </div>
+                </p>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
                     Blockchain es una tecnología innovadora que ha revolucionado la capacidad de transformar sistemas tradicionales, en sistemas seguros y colaborativos que inició en el año 2009. Esta ha atraído la atención de entidades privadas y públicas por tener la capacidad de ejecutar scripts autónomos y código controlado por datos que pueden representar una aplicación lógica verificable, ayudando a automatizar un conjunto de reglas dentro de un sistema (Huckle, Bhattacharya, White & Beloff, 2016).
-                </div>
+                </p>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
                     El desarrollo de soluciones a partir de tecnologías emergentes como Blockchain facilitan el intercambio de comunicaciones seguras e inmutables en la red, permitiendo que los diferentes actores en el proceso de comunicación y que las características del contenido relacionado, no sean alterados para generar confianza. Así mismo la modificación o cambio de estos datos deja una trazabilidad en el sistema permitiendo que las partes involucradas puedan hacer seguimiento de la información según sus necesidades.
+                </p>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 md:p-4 flex text-justify items-center">
+                <p class="md:border md:border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg md:hover:scale-105 duration-200">
+                    Finalmente, la propuesta se encuentra alineada a varios de los intereses declarados en la Agenda Regulatoria de la Comisión de Regulación de Comunicaciones, tanto en la gestión con los interesados (stakeholders) de la organización, como en la incorporación de tecnologías emergentes para la gestión de la información y la facilidad para la toma de decisiones (Comisión de Regulación de Comunicaciones - CRC, 2020).            
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-screen min-h-screen justify-center items-center px-10 pt-5" id="objetivos">
+        <div class="flex max-w-5xl flex-wrap">
+            <h3 class="titles">
+                <span class="return-index">#</span> &nbsp; Objetivos
+            </h3>
+            <div class="px-3">
+                <h4 class="sub-titles">Objetivo general</h4>
+                <div class="py-5">
+                    <p class="md:border-l-4 md:border-secondary rounded-md md:p-2 my-4 text-justify">
+                        Proponer una estrategia para notificaciones certificadas inmutables, desde y hacia los actores relacionados con la Comisión de Regulación de Comunicaciones, a través de tecnologías emergentes (Blockchain) y siguiendo el marco de un modelo de Data Trust.
+                    </p>
+                </div>
+                <h4 class="sub-titles">Objetivos específicos</h4>
+                <div class="py-5">
+                    <p class="md:border-l-4 md:border-third rounded-md md:py-1 md:px-2 my-4 text-justify">
+                        Establecer la línea base del marco legal para un modelo de intercambio de datos (data trust) en Colombia, orientado a la implementación de tecnologías emergentes (Blockchain).
+                    </p>
+                    <p class="md:border-l-4 md:border-third rounded-md md:py-1 md:px-2 my-4 text-justify">
+                        Realizar un estudio que permita identificar las tecnologías existentes de Blockchain, con la finalidad de seleccionar la alternativa más viable, teniendo en cuenta eficiencia y costos.
+                    </p>
+                    <p class="md:border-l-4 md:border-third rounded-md md:py-1 md:px-2 my-4 text-justify">
+                        Desarrollar una Interfaz de Programación de Aplicaciones - API que permita reportar información hacia y desde la Comisión de Regulación de Comunicaciones bajo la estructura de la tecnología blockchain seleccionada.
+                    </p>
+                    <p class="md:border-l-4 md:border-third rounded-md md:py-1 md:px-2 my-4 text-justify">
+                        Validar la herramienta desarrollada con datos operados por la Comisión de Regulación de Comunicaciones relacionada al sector TIC, Postal o Audiovisual, con la finalidad de asegurar un producto funcional.
+                    </p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-2 flex text-justify items-center">
-                <div class="border border-midnight-blue h-full flex items-center py-2 px-3 rounded-lg hover:scale-105 duration-200">
-                    Finalmente, la propuesta se encuentra alineada a varios de los intereses declarados en la Agenda Regulatoria de la Comisión de Regulación de Comunicaciones, tanto en la gestión con los interesados (stakeholders) de la organización, como en la incorporación de tecnologías emergentes para la gestión de la información y la facilidad para la toma de decisiones (Comisión de Regulación de Comunicaciones - CRC, 2020).            
+        </div>
+    </section>
+    <section class="flex w-screen min-h-screen justify-center items-center px-10 pt-5" id="metodologia">
+        <div class="flex max-w-5xl w-full flex-wrap">
+            <h3 class="titles">
+                <span class="return-index">#</span> &nbsp; Metodología
+            </h3>
+            <div class="w-full flex flex-wrap px-3">
+                <div class="6-7 md:w-3/7"></div>
+                <div class="w-1/7 flex justify-start md:justify-center items-center py-8">
+                    <span class="bg-secondary/20 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        1
+                    </span>
                 </div>
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Línea base del marco legal para un modelo de intercambio de datos en Colombia
+                </div>
+
+                <div class="w-6/7 md:w-3/7 flex justify-start md:justify-end items-center text-justify">
+                    Revisión técnica del aplicativo POSDATA y su integración con la CRC
+                </div>
+                <div class="w-1/7 flex justify-end md:justify-center items-center py-8">
+                    <span class="bg-secondary/30 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        2
+                    </span>
+                </div>
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+                <div class="w-1/7 flex justify-start md:justify-center items-center py-8">
+                    <span class="bg-secondary/40 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        3
+                    </span>
+                </div>
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Selección de la alternativa Blockchain para el desarrollo de la aplicación
+                </div>
+
+                <div class="w-6/7 md:w-3/7 flex justify-end items-center text-justify">
+                    Selección del lenguaje de programación y ambiente de despliegue
+                </div>
+                <div class="w-1/7 flex justify-end md:justify-center items-center py-8">
+                    <span class="bg-secondary/50 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        4
+                    </span>
+                </div>
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+                <div class="w-1/7 flex justify-start md:justify-center items-center py-8">
+                    <span class="bg-secondary/60 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        5
+                    </span>
+                </div>
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Toma de requisitos para el desarrollo de la aplicación y la integración
+                </div>
+                
+                <div class="w-6/7 md:w-3/7 flex justify-end items-center text-justify">
+                    Diseño de Mockups Desarrollo del Front-End y el Back-End de la aplicación
+                </div>
+                <div class="w-1/7 flex justify-end md:justify-center items-center py-8">
+                    <span class="bg-secondary/70 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        6
+                    </span>
+                </div>
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+                
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+                <div class="w-1/7 flex justify-start md:justify-center items-center py-8">
+                    <span class="bg-secondary/80 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        7
+                    </span>
+                </div>
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Desarrollo del módulo del smartcontract con Zilliqa e integración con la aplicación
+                </div>
+                
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Despliegue de la aplicación en la nube de azure y pruebas de integración
+                </div>
+                <div class="w-1/7 flex justify-end md:justify-center items-center py-8">
+                    <span class="bg-secondary/90 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        8
+                    </span>
+                </div>
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+
+                <div class="6-7 md:w-3/7 flex justify-left items-center text-justify">
+                </div>
+                <div class="w-1/7 flex justify-start md:justify-center items-center py-8">
+                    <span class="bg-secondary/100 rounded-full w-10 h-10 text-white flex items-center justify-center text-xl">
+                        9
+                    </span>
+                </div>
+                <div class="w-6/7 md:w-3/7 flex justify-left items-center text-justify">
+                    Pruebas de funcionalidad, validación de la aplicación y ajustes
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-screen min-h-screen justify-center items-center px-10 pt-5" id="produccion">
+        <div class="flex max-w-5xl w-full flex-wrap">
+            <h3 class="titles">
+                <span class="return-index">#</span> &nbsp; Producción Científica
+            </h3>
+            <div class="w-full flex flex-wrap px-3">
+                
             </div>
         </div>
     </section>
 </body>
 
 <script>
+    const contentTable = document.getElementById('tabla-contenido');
+    // array of elements to return to top
+    const returnIndex = document.querySelectorAll('.return-index');
+    returnIndex.forEach(el => {
+        el.addEventListener('click', () => {
+            contentTable.scrollIntoView({ behavior: 'smooth' });
+        });
+    })
 
+    const scrollIntoElement = (id = '') => {
+        const element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
 </script>
 
 <style>
@@ -94,11 +251,52 @@
         cursor: pointer;
         font-weight: bold;
     }
+    .return-index {
+        cursor: pointer;
+        color: #4F0097;
+        font-weight: bold;
+    }
+    
     .titles {
-        font-size: 1.5rem;
         margin: 1rem;
         width: 100%;
     }
+    @media screen and (max-width: 768px){
+        .titles {
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .titles {
+            font-size: 2rem;
+        }
+    }
+    @media screen and (min-width: 1024px){
+        .titles {
+            font-size: 2.5rem;
+        }
+    }
+
+    .sub-titles {
+        width: 100%;
+        padding: 0 0;
+    }
+    @media screen and (max-width: 768px){
+        .sub-titles {
+            font-size: 1.25rem;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .sub-titles {
+            font-size: 1.75rem;
+        }
+    }
+    @media screen and (min-width: 1024px){
+        .sub-titles {
+            font-size: 2rem;
+        }
+    }
+    
 </style>
 
 </html>
