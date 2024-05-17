@@ -551,6 +551,18 @@ video {
   height: 100%;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -587,8 +599,32 @@ video {
   width: 85.7142857%;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .select-none {
@@ -717,6 +753,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -759,6 +805,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .backdrop-blur-lg {
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -770,6 +821,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+
+  .md\:h-12 {
+    height: 3rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -780,6 +839,22 @@ video {
 
   .md\:w-3\/7 {
     width: 42.8571429%;
+  }
+
+  .md\:w-10 {
+    width: 2.5rem;
+  }
+
+  .md\:w-12 {
+    width: 3rem;
+  }
+
+  .md\:w-1\/5 {
+    width: 20%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:justify-end {
@@ -798,6 +873,10 @@ video {
     border-left-width: 4px;
   }
 
+  .md\:border-r-4 {
+    border-right-width: 4px;
+  }
+
   .md\:border-midnight-blue {
     --tw-border-opacity: 1;
     border-color: rgb(25 25 112 / var(--tw-border-opacity));
@@ -811,6 +890,11 @@ video {
   .md\:border-third {
     --tw-border-opacity: 1;
     border-color: rgb(154 22 100 / var(--tw-border-opacity));
+  }
+
+  .md\:border-primary {
+    --tw-border-opacity: 1;
+    border-color: rgb(79 0 151 / var(--tw-border-opacity));
   }
 
   .md\:p-2 {
@@ -833,6 +917,11 @@ video {
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:hover\:scale-105:hover {
