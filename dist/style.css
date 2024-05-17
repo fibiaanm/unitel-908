@@ -661,8 +661,16 @@ video {
   justify-content: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.break-all {
+  word-break: break-all;
 }
 
 .rounded-full {
