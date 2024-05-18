@@ -446,7 +446,13 @@ Disponible en: https://tic.bogota.gov.co/sites/default/files/documentos/blockcha
         </div>
     </section>
 
-    <footer></footer>
+    <footer class="flex flex-wrap w-screen bg-midnight-blue h-auto mt-10 justify-center items-center px-5 md:px-10 py-10 text-white" id="footer">
+        <div class="flex max-w-5xl flex-wrap">
+            <p class="w-full text-center py-1">Universidad Santo Tomás <br> Seccional Bucaramanga</p>
+            <p class="w-full text-center py-1">Grupo de Investigación UNITEL</p>
+            <p class="w-full text-center py-1">© <span id="current_date"></span></p>
+        </div>
+    </footer>
 </body>
 
 <script>
@@ -475,6 +481,12 @@ Disponible en: https://tic.bogota.gov.co/sites/default/files/documentos/blockcha
         }
     }
     setReturnToTableButtonVisibility();
+
+    const setCurrentYear = () => {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current_date').innerText = currentYear;
+    }
+    setCurrentYear();  
 
     window.addEventListener('scroll', setReturnToTableButtonVisibility);
 

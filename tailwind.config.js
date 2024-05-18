@@ -7,6 +7,7 @@ module.exports = {
         primary: "#4F0097",
         secondary: "#EF7B4B",
         third: "#9A1664",
+        extra: "#C94843",
         'midnight-blue': '#191970',
       },
       width: {
