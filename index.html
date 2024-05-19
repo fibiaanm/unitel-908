@@ -11,7 +11,7 @@
 
 <body class="select-none">
     <!--Floating element to return top-->
-    <div class="fixed bottom-5 right-5 duration-200" style="opacity: 0;" id="return-to-table">
+    <div class="fixed bottom-5 right-5 duration-200 z-[99]" style="opacity: 0;" id="return-to-table">
         <button onclick="scrollIntoElement('tabla-contenido')" class="bg-third rounded-full p-2">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-280v-80h560v80H120Zm0-160v-80h560v80H120Zm0-160v-80h560v80H120Zm680 320q-17 0-28.5-11.5T760-320q0-17 11.5-28.5T800-360q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280Zm0-160q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440Zm0-160q-17 0-28.5-11.5T760-640q0-17 11.5-28.5T800-680q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600Z"/></svg>
         </button>
@@ -94,13 +94,13 @@
             </h3>
             <div class="px-3">
                 <h4 class="sub-titles">Objetivo general</h4>
-                <div class="py-5">
+                <div class="md:py-5">
                     <p class="md:border-l-4 md:border-secondary rounded-md md:p-2 my-4 text-justify">
                         Proponer una estrategia para notificaciones certificadas inmutables, desde y hacia los actores relacionados con la Comisión de Regulación de Comunicaciones, a través de tecnologías emergentes (Blockchain) y siguiendo el marco de un modelo de Data Trust.
                     </p>
                 </div>
                 <h4 class="sub-titles">Objetivos específicos</h4>
-                <div class="py-5">
+                <div class="md:py-5">
                     <p class="md:border-l-4 md:border-third rounded-md md:py-1 md:px-2 my-4 text-justify">
                         Establecer la línea base del marco legal para un modelo de intercambio de datos (data trust) en Colombia, orientado a la implementación de tecnologías emergentes (Blockchain).
                     </p>
@@ -275,7 +275,7 @@
                 <h4 class="sub-titles flex items-center">
                     Innovación generada en la Gestión Empresarial
                 </h4>
-                <div class="py-5">
+                <div class="md:py-5">
                     <div class="md:border-l-4 md:border-primary rounded-md md:p-2 my-4 text-justify">
                         <p>
                             El presente proyecto ha generado una Innovación en Proceso y Procedimiento, según la descripción conceptual de MINCIENCIAS, al establecer un apoyo en la dinámica de comunicaciones de la Comisión de Regulación de Comunicaciones- CRC y sus interesados. 
@@ -541,6 +541,7 @@ Disponible en: https://tic.bogota.gov.co/sites/default/files/documentos/blockcha
     @media screen and (max-width: 768px){
         .sub-titles {
             font-size: 1.25rem;
+            padding: 1rem 0 0 0;
         }
     }
     @media screen and (min-width: 768px) and (max-width: 1024px){
